@@ -26,11 +26,26 @@
 
 **818 production-grade cybersecurity skills · 34 security domains · 6 framework mappings · 26+ AI platforms**
 
-[Get Started](#quick-start) · [What's Inside](#whats-inside--34-security-domains) · [Frameworks](#six-frameworks-one-skill-library) · [Platforms](#compatible-platforms) · [Contributing](#contributing)
+[Get Started](#quick-start) · [Web Explorer](#web-application) · [What's Inside](#whats-inside--34-security-domains) · [Frameworks](#six-frameworks-one-skill-library) · [Platforms](#compatible-platforms) · [Contributing](#contributing)
 
 </div>
 
 ---
+
+## Web Application
+
+This repository is rewritten as a modern React SPA running on Vite + Tailwind CSS, featuring:
+- **Skills Catalog & Reader**: Browse and search across all 818 cybersecurity skills with full markdown specifications, references, scripts, and frontmatter.
+- **Interactive MITRE ATT&CK Matrix**: Enterprise kill-chain heatmap with 218 scored techniques directly mapped to relevant skills.
+- **Multi-Framework Alignment**: Deep dive into NIST CSF 2.0 (804 skills), MITRE F3 (94 fraud-relevant skills), MITRE ATLAS, NIST AI RMF, and MITRE D3FEND.
+- **AI Agent Hub**: Export skill bundles for Claude Plugins, Claude Desktop MCP, Cursor, Copilot, and Hermes Agent.
+- **Skill Validator Lab**: Interactive linter validating skills against the `AGENTS.md` and `agentskills.io` standard.
+
+```bash
+npm install
+npm run dev
+```
+
 
 > ⚠️ **Community Project** — This is an independent, community-created project. Not affiliated with Anthropic PBC.
 >
